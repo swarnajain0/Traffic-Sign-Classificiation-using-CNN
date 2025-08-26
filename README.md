@@ -17,3 +17,25 @@
 ├── model_trained.p # trained model (pickle format)
 ├── requirements.txt # required libraries
 └── README.md # project documentation
+
+
+📊 Dataset
+Dataset used: [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/gtsrb_news.html)  
+Contains **43 classes** of traffic signs.  
+⚠️ Not uploaded here due to size. Please download it separately.
+
+
+## ⚙️ Installation
+Clone this repo and install dependencies:
+git clone https://github.com/<your-username>/Traffic-Sign-Classification.git
+cd Traffic-Sign-Classification
+pip install -r requirements.txt
+
+
+for training: python train.py
+for Real-Time Testing (Webcam): python test.py
+
+📈 Results
+Accuracy: ~90% after 15 epochs
+Example Prediction: Stop (98.7%)
+
